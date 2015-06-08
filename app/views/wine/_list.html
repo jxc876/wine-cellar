@@ -1,0 +1,11 @@
+<div id='wine-list'>
+	<h1>Wines</h1>
+	<span ng-show='wineFilter'>
+		<p class="bg-success">{{results.length}} results for {{wineFilter}}</p>
+	</span>
+	<div class="btn-group-vertical" role="group">
+		<span class="btn btn-default" ng-repeat='wine in wineList | filter:wineFilter as results' ng-click='selectWine(wine)'>
+			{{wine.name}}
+		</span>
+	</div>
+</div>

@@ -21,7 +21,7 @@ angular
         controller: 'MainCtrl'
       })
       .when('/wine', {
-        templateUrl: 'views/wine.html',
+        templateUrl: 'views/wine/index.html',
         controller: 'WineCtrl'
       })
       .otherwise({
