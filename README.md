@@ -11,7 +11,6 @@ Install the following software:
 
 * git
 * bower
-* grunt
 
 After installation, run the following: 
 
