@@ -5,6 +5,20 @@ A Wine Cellar application which allows listing, adding, updating, and deleting w
 This project was generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.11.1.
 
+## Dev Setup
+
+Install the following software:
+
+* git
+* bower
+* grunt
+
+After installation, run the following: 
+
+1. `git clone <url>`
+2. `bower install`
+3. `npm install`
+
 ## Build & development
 
 Run `grunt` for building and `grunt serve` for preview.
